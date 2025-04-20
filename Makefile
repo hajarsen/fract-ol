@@ -2,7 +2,7 @@ NAME        := fractol
 BONUS_NAME  := fractol_bonus
 
 CC          := cc
-CFLAGS      := -Wall -Wextra -Werror #-O3
+CFLAGS      := -Wall -Wextra -Werror -O3
 MLX_FLAGS   := -lmlx -lX11 -lXext -lm
 INCS        := -I includes
 
