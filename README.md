@@ -145,19 +145,21 @@ For invalid-input checks, try `./fractol`, `./fractol unknown`, and `./fractol j
 
 ### 📸 Screenshots and Demonstration
 
-Real application screenshots will be added after they are captured and reviewed.
+These six screenshots were captured from the running fractal application. They are displayed in the order of the demonstration.
 
-Suggested gallery:
+| Mandelbrot | Julia — view 1 |
+|:---:|:---:|
+| <img src="docs/screenshots/mandelbrot.png" alt="Mandelbrot fractal" width="400"> | <img src="docs/screenshots/julia-01.png" alt="Julia set, first variation" width="400"> |
 
-| Mandelbrot | Julia (-0.8, 0.156) |
-|---|---|
-| Screenshot coming soon | Screenshot coming soon |
+| Julia — view 2 | Julia — view 3 |
+|:---:|:---:|
+| <img src="docs/screenshots/julia-02.png" alt="Julia set, second variation" width="400"> | <img src="docs/screenshots/julia-03.png" alt="Julia set, third variation" width="400"> |
 
-| Julia (0.285, 0.01) | Tricorn (bonus) |
-|---|---|
-| Screenshot coming soon | Screenshot coming soon |
+| Tricorn (bonus) | Zoomed fractal detail |
+|:---:|:---:|
+| <img src="docs/screenshots/tricorn.png" alt="Tricorn fractal" width="400"> | <img src="docs/screenshots/mandelbrot-zoom.png" alt="Zoomed Mandelbrot detail" width="400"> |
 
-You can take a screenshot of the application window using your desktop screenshot tool. For a detailed view, move into an interesting area with the arrow keys, zoom in with the mouse wheel, and adjust the color palette with Space.
+The screenshots use different palette shifts and zoom levels. Colors are adjusted interactively with **Space**, and zoom is controlled with the **mouse wheel**.
 
 
 ## Resources
