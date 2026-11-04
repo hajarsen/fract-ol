@@ -125,39 +125,23 @@ fractol_v_finale/
 
 ### Manual Tests
 
-You can check the different fractals and controls directly after compiling both programs.
+You can check the fractals and controls after compiling the mandatory and bonus versions.
 
-| Test | Command / action | What to look for |
+| Test | Command / action | Preview / expected result |
 |---|---|---|
-| Mandelbrot | `./fractol mandelbrot` | Standard Mandelbrot view |
-| Julia 1 | `./fractol julia -0.8 0.156` | Julia set with thin, intricate structures |
-| Julia 2 | `./fractol julia 0.285 0.01` | Different Julia pattern |
-| Julia 3 | `./fractol julia -0.4 0.6` | Connected or branched Julia structure |
+| Mandelbrot | `./fractol mandelbrot` | <img src="docs/screenshots/mandelbrot.png" alt="Mandelbrot fractal" width="220"> |
+| Julia 1 | `./fractol julia -0.8 0.156` | <img src="docs/screenshots/julia-01.png" alt="Julia fractal view 1" width="220"> |
+| Julia 2 | `./fractol julia 0.285 0.01` | <img src="docs/screenshots/julia-02.png" alt="Julia fractal view 2" width="220"> |
+| Julia 3 | `./fractol julia -0.4 0.6` | <img src="docs/screenshots/julia-03.png" alt="Julia fractal view 3" width="220"> |
 | Julia 4 | `./fractol julia -0.7 0.27015` | An alternative Julia pattern |
-| Tricorn (bonus) | `./fractol_bonus tricorn` | Tricorn rendering from this implementation |
-| Zoom | Scroll the mouse wheel | Magnification changes |
+| Tricorn (bonus) | `./fractol_bonus tricorn` | <img src="docs/screenshots/tricorn.png" alt="Tricorn fractal" width="220"> |
+| Zoom | Scroll the mouse wheel | <img src="docs/screenshots/mandelbrot-zoom.png" alt="Zoomed Mandelbrot detail" width="220"> |
 | Pan | Press arrow keys | Move around the fractal |
 | Palette | Press Space | Colors change |
 | Detail | Press Enter | Iteration limit increases by 50 |
 | Exit | Press Esc | Window closes |
 
 For invalid-input checks, try `./fractol`, `./fractol unknown`, and `./fractol julia 3 0`. These should exit with an error. The commands above are **suggested manual tests**, not recorded passing results.
-
-### 📸 Screenshots and Demonstration
-
-Here are a few screenshots of the Mandelbrot, Julia, and Tricorn fractals, including a zoomed-in view.
-
-| Mandelbrot | Julia — view 1 |
-|:---:|:---:|
-| <img src="docs/screenshots/mandelbrot.png" alt="Mandelbrot fractal" width="400"> | <img src="docs/screenshots/julia-01.png" alt="Julia set, first variation" width="400"> |
-
-| Julia — view 2 | Julia — view 3 |
-|:---:|:---:|
-| <img src="docs/screenshots/julia-02.png" alt="Julia set, second variation" width="400"> | <img src="docs/screenshots/julia-03.png" alt="Julia set, third variation" width="400"> |
-
-| Tricorn (bonus) | Zoomed fractal detail |
-|:---:|:---:|
-| <img src="docs/screenshots/tricorn.png" alt="Tricorn fractal" width="400"> | <img src="docs/screenshots/mandelbrot-zoom.png" alt="Zoomed Mandelbrot detail" width="400"> |
 
 ## Resources
 
