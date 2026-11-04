@@ -145,7 +145,7 @@ For invalid-input checks, try `./fractol`, `./fractol unknown`, and `./fractol j
 
 ### 📸 Screenshots and Demonstration
 
-A gallery of Mandelbrot, Julia, and Tricorn fractals, including a closer look at the details revealed by zooming.
+Here are a few screenshots of the Mandelbrot, Julia, and Tricorn fractals, including a zoomed-in view.
 
 | Mandelbrot | Julia — view 1 |
 |:---:|:---:|
