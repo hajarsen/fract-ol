@@ -145,7 +145,7 @@ For invalid-input checks, try `./fractol`, `./fractol unknown`, and `./fractol j
 
 ### 📸 Screenshots and Demonstration
 
-These six screenshots were captured from the running fractal application. They are displayed in the order of the demonstration.
+A gallery of Mandelbrot, Julia, and Tricorn fractals, including a closer look at the details revealed by zooming.
 
 | Mandelbrot | Julia — view 1 |
 |:---:|:---:|
@@ -158,9 +158,6 @@ These six screenshots were captured from the running fractal application. They a
 | Tricorn (bonus) | Zoomed fractal detail |
 |:---:|:---:|
 | <img src="docs/screenshots/tricorn.png" alt="Tricorn fractal" width="400"> | <img src="docs/screenshots/mandelbrot-zoom.png" alt="Zoomed Mandelbrot detail" width="400"> |
-
-The screenshots use different palette shifts and zoom levels. Colors are adjusted interactively with **Space**, and zoom is controlled with the **mouse wheel**.
-
 
 ## Resources
 
